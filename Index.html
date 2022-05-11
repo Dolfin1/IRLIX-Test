@@ -62,14 +62,16 @@
 					</div>
 				</div>
 				<form class="form js-form">
-					<div class="input">
+					<label for="number" class="input">
 						<span class="input__title">Номер записи</span>
+						<p class="input__error input__error--number"></p>
 						<input type="number" id="number" class="input__area input__area--first">
-					</div>
-					<div class="input">
+					</label>
+					<label for="content" class="input">
 						<span class="input__title">Название записи</span>
+						<p class="input__error input__error--content"></p>
 						<input type="text" id="content" class="input__area input__area--second">
-					</div>
+					</label>
 					<button type="submit" class="btn">Добавить в список</button>
 				</form>
 			</div>
