@@ -20,6 +20,7 @@ form.addEventListener("submit", function (event) {
 		return;
 	} else if (!+number.value) {
 		numberError.innerHTML = "Это не число";
+		this.reset();
 		return;
 	} else {
 		numberError.innerHTML = "";
