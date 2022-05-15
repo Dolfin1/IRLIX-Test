@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
 	<link rel="stylesheet" href="./css/Zero.css">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 	<div class="container">
 		<header class="header">
@@ -62,14 +64,16 @@
 					</div>
 				</div>
 				<form class="form js-form">
-					<div class="input">
+					<label for="number" class="input">
 						<span class="input__title">Номер записи</span>
+						<p class="input__error input__error--number"></p>
 						<input type="number" id="number" class="input__area input__area--first">
-					</div>
-					<div class="input">
+					</label>
+					<label for="content" class="input">
 						<span class="input__title">Название записи</span>
+						<p class="input__error input__error--content"></p>
 						<input type="text" id="content" class="input__area input__area--second">
-					</div>
+					</label>
 					<button type="submit" class="btn">Добавить в список</button>
 				</form>
 			</div>
@@ -115,7 +119,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/script.js">
+	<script src="./js/script.js">
 	</script>
 </body>
 
