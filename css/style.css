@@ -92,6 +92,7 @@ body{
 	 width: 368px;
 	 height: 48px;
 	 border: 1px solid;
+	 padding-left: 10px;
  }
  .title{
 	font-weight: 500;
